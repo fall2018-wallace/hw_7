@@ -122,8 +122,11 @@
             "desc": "",
             "name": "murderrate.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "murderplot.png"
         }
     ],
-    "updated_at": "2018-10-17 17:13:25",
+    "updated_at": "2018-10-17 17:13:41",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
