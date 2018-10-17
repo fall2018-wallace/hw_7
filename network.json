@@ -67,6 +67,17 @@
             ],
             "source": "area.R",
             "target": "areaplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "murderrate.R"
         }
     ],
     "nodes": [
@@ -107,10 +118,12 @@
             "name": "areaplot.png"
         },
         {
+            "assigned_to": "sim96",
             "desc": "",
-            "name": "murderrate.R"
+            "name": "murderrate.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:11:59",
+    "updated_at": "2018-10-17 17:13:25",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
