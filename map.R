@@ -1,6 +1,4 @@
 
-library(ggplot2)
-library(ggmap)
 
 merged$area= state.area
 
