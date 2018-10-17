@@ -1,6 +1,7 @@
 
-#read in USArrests data set same as HW #2
+#read in USArrests data set 
 arrests <- USArrests
 arrests <- cbind(rownams(arrests),arrests)
 colnames(arrests) <- c("stateName")
+arrests
 
