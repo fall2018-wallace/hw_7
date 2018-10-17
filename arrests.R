@@ -1,7 +1,7 @@
 
 #read in USArrests data set 
 arrests <- USArrests
-arrests <- cbind(rownams(arrests),arrests)
+arrests <- cbind(rownames(arrests),arrests)
 colnames(arrests) <- c("stateName")
 arrests
 
