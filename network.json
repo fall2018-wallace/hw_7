@@ -13,24 +13,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "census.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "sim96",
@@ -43,6 +30,6 @@
             "name": "arrests.R"
         }
     ],
-    "updated_at": "2018-10-17 16:56:13",
+    "updated_at": "2018-10-17 16:56:23",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
