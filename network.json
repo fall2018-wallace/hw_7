@@ -92,8 +92,11 @@
             "desc": "",
             "name": "area.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "areaplot.png"
         }
     ],
-    "updated_at": "2018-10-17 17:08:39",
+    "updated_at": "2018-10-17 17:08:53",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
