@@ -33,8 +33,8 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "merge.R",
-            "target": "arrests.R"
+            "source": "arrests.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -60,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:01:13",
+    "updated_at": "2018-10-17 17:01:45",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
