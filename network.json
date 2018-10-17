@@ -37,8 +37,12 @@
             "desc": "",
             "name": "census.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "arrests.R"
         }
     ],
-    "updated_at": "2018-10-17 16:55:59",
+    "updated_at": "2018-10-17 16:56:13",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
