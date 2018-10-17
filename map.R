@@ -10,6 +10,6 @@ merged$longitude=statecenter$x
 
 
 
-merged$stateName=tolower(merged_data$stateName)
+merged$stateName=tolower(merged$stateName)
 
 merged
