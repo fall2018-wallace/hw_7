@@ -75,8 +75,12 @@
             "desc": "",
             "name": "map.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "area.R"
         }
     ],
-    "updated_at": "2018-10-17 17:05:24",
+    "updated_at": "2018-10-17 17:06:21",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
