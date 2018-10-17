@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "census.R"
         },
         {
             "ports": [
@@ -21,7 +21,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "census.R",
             "target": "data.csv"
         }
     ],
@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 16:53:05",
+    "updated_at": "2018-10-17 16:55:59",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
