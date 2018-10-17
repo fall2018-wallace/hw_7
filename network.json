@@ -50,8 +50,8 @@
         {
             "ports": [
                 {
-                    "input": "Area",
-                    "output": "Area",
+                    "input": "merged",
+                    "output": "merged",
                     "type": "r_obj"
                 }
             ],
@@ -94,6 +94,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:08:09",
+    "updated_at": "2018-10-17 17:08:39",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
