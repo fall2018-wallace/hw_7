@@ -57,6 +57,16 @@
             ],
             "source": "map.R",
             "target": "area.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Area",
+                    "type": "png"
+                }
+            ],
+            "source": "area.R",
+            "target": "areaplot.png"
         }
     ],
     "nodes": [
@@ -97,6 +107,6 @@
             "name": "areaplot.png"
         }
     ],
-    "updated_at": "2018-10-17 17:08:53",
+    "updated_at": "2018-10-17 17:09:05",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
