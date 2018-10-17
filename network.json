@@ -24,6 +24,17 @@
             ],
             "source": "census.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "arrests.R"
         }
     ],
     "nodes": [
@@ -49,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:00:55",
+    "updated_at": "2018-10-17 17:01:13",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
