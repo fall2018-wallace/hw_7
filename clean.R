@@ -11,4 +11,6 @@ census <- read.csv("scprc_est_2017_18_pop_res.csv")
 census <- census[,-1:-4]
 census <- census[-c(1,53,10),]
 
-
+#Renaming all the columns
+colnames(census) <- c("stateName","population","popOver18","percentOver18")
+census
