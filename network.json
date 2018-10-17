@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "census",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -26,14 +37,18 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sim96",
             "desc": "",
-            "name": "arrests.R"
+            "name": "arrests.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "sim96",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 16:56:32",
+    "updated_at": "2018-10-17 17:00:55",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
