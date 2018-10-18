@@ -88,6 +88,17 @@
             ],
             "source": "murderrate.R",
             "target": "murderplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "pop.R"
         }
     ],
     "nodes": [
@@ -141,6 +152,6 @@
             "name": "pop.R"
         }
     ],
-    "updated_at": "2018-10-18 00:42:20",
+    "updated_at": "2018-10-18 00:42:55",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
