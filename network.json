@@ -141,6 +141,16 @@
             ],
             "source": "northeast_murder.R",
             "target": "northeastM_plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "northeast_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "northeast_pop.R",
+            "target": "northeastP_plot.png"
         }
     ],
     "nodes": [
@@ -223,6 +233,6 @@
             "name": "northeastP_plot.png"
         }
     ],
-    "updated_at": "2018-10-18 01:01:52",
+    "updated_at": "2018-10-18 01:02:09",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
