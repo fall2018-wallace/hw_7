@@ -99,6 +99,16 @@
             ],
             "source": "map.R",
             "target": "pop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop",
+                    "type": "png"
+                }
+            ],
+            "source": "pop.R",
+            "target": "popplot.png"
         }
     ],
     "nodes": [
@@ -157,6 +167,6 @@
             "name": "popplot.png"
         }
     ],
-    "updated_at": "2018-10-18 00:47:15",
+    "updated_at": "2018-10-18 00:47:27",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
