@@ -3,6 +3,7 @@
 library(ggplot2)
 library(ggmap)
 
+#Taking the US state data for creating the map 
 US=map_data("state")
 
 options(scipen=999)
