@@ -208,8 +208,11 @@
         },
         {
             "name": "northeastM_plot.png"
+        },
+        {
+            "name": "northeastP_plot.png"
         }
     ],
-    "updated_at": "2018-10-18 01:01:26",
+    "updated_at": "2018-10-18 01:01:38",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
