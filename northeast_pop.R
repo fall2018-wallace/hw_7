@@ -5,6 +5,8 @@ library(ggmap)
 
 #Generating the map with US states map_data
 US=map_data("state")
+
+#Converting the scale to readable form
 options(scipen=999)
 northeast_pop=ggplot(merged, aes(map_id=stateName)) + geom_map(map=US, aes(fill=Murder),color="black")
 northeast_pop=northeast_pop + expand_limits(x=US$long, y=US$lat)
