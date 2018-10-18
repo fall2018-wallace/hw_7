@@ -1,5 +1,5 @@
 
-
+#Using the areas of US states
 merged$area= state.area
 
 statecenter= data.frame(state.center)
