@@ -8,6 +8,8 @@ US=map_data("state")
 
 #Converting the scale to readable form
 options(scipen=999)
+
+#plotting the murder rate using map
 northeast_pop=ggplot(merged, aes(map_id=stateName)) + geom_map(map=US, aes(fill=Murder),color="black")
 northeast_pop=northeast_pop + expand_limits(x=US$long, y=US$lat)
 northeast_pop= northeast_pop+geom_point(aes(x=merged$longitude, y=merged$latitude, size=merged$population)) 
