@@ -109,6 +109,17 @@
             ],
             "source": "pop.R",
             "target": "popplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "northeast_area.R"
         }
     ],
     "nodes": [
@@ -175,6 +186,6 @@
             "name": "northeast_murder.R"
         }
     ],
-    "updated_at": "2018-10-18 00:52:19",
+    "updated_at": "2018-10-18 00:52:41",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
