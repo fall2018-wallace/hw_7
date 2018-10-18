@@ -11,6 +11,7 @@ options(scipen=999)
 
 #plotting the mapaccording to area
 Area=ggplot(merged, aes(map_id=stateName)) + geom_map(map=US, aes(fill=area),color="black")
+#Giving the map a title and adjusting it
 Area=Area + expand_limits(x=US$long, y=US$lat) + ggtitle("Area of US states") + coord_map()
 Area
 
