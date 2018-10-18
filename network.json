@@ -205,8 +205,11 @@
             "desc": "",
             "name": "northeast_pop.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "northeastM_plot.png"
         }
     ],
-    "updated_at": "2018-10-18 01:00:59",
+    "updated_at": "2018-10-18 01:01:26",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
