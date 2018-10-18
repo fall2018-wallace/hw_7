@@ -135,8 +135,12 @@
         },
         {
             "name": "murderplot.png"
+        },
+        {
+            "desc": "",
+            "name": "pop.R"
         }
     ],
-    "updated_at": "2018-10-17 17:13:53",
+    "updated_at": "2018-10-18 00:42:20",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
