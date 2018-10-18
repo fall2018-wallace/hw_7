@@ -120,6 +120,17 @@
             ],
             "source": "map.R",
             "target": "northeast_area.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "northeast_murder.R"
         }
     ],
     "nodes": [
@@ -186,6 +197,6 @@
             "name": "northeast_murder.R"
         }
     ],
-    "updated_at": "2018-10-18 00:52:41",
+    "updated_at": "2018-10-18 00:52:54",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
