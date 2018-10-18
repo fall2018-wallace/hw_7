@@ -10,5 +10,6 @@ US=map_data("state")
 options(scipen=999)
 #Plotting the map according to murder rate
 murder=ggplot(merged, aes(map_id=stateName)) + geom_map(map=US, aes(fill=Murder),color="black")
+#Giving the map a title and adjusting it 
 murder=murder + expand_limits(x=US$long, y=US$lat) + ggtitle("Murder rate in US states") + coord_map()
 murder
