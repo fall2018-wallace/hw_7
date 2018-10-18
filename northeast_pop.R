@@ -1,4 +1,5 @@
 
+#Importing the required libraries
 library(ggplot2)
 library(ggmap)
 US=map_data("state")
