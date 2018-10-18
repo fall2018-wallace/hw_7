@@ -3,6 +3,7 @@
 library(ggplot2)
 library(ggmap)
 
+#Getting the US sate data for plotting the map
 US=map_data("state")
 
 options(scipen=999)
