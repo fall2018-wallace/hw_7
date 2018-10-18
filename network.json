@@ -120,17 +120,6 @@
             ],
             "source": "map.R",
             "target": "northeast_murder.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "merged",
-                    "output": "merged",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "map.R",
-            "target": "northeast_murder.R"
         }
     ],
     "nodes": [
@@ -189,8 +178,10 @@
             "name": "popplot.png"
         },
         {
+            "assigned_to": "sim96",
             "desc": "",
-            "name": "northeast_murder.R"
+            "name": "northeast_murder.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "sim96",
@@ -199,6 +190,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 00:55:25",
+    "updated_at": "2018-10-18 00:56:46",
     "url": "https://github.com/fall2018-wallace/hw_7"
 }
