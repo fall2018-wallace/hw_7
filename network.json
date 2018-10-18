@@ -1,0 +1,238 @@
+{
+    "collaborators": [
+        "sim96"
+    ],
+    "created_at": "2018-10-17 16:52:12",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "census",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "map.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "area.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Area",
+                    "type": "png"
+                }
+            ],
+            "source": "area.R",
+            "target": "areaplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "murderrate.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder",
+                    "type": "png"
+                }
+            ],
+            "source": "murderrate.R",
+            "target": "murderplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "pop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop",
+                    "type": "png"
+                }
+            ],
+            "source": "pop.R",
+            "target": "popplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "northeast_murder.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged",
+                    "output": "merged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "map.R",
+            "target": "northeast_pop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "northeast_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "northeast_murder.R",
+            "target": "northeastM_plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "northeast_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "northeast_pop.R",
+            "target": "northeastP_plot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "map.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "area.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "areaplot.png"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "murderrate.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murderplot.png"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "pop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popplot.png"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "northeast_murder.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "northeast_murder.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "",
+            "name": "northeast_pop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "northeastM_plot.png"
+        },
+        {
+            "name": "northeastP_plot.png"
+        }
+    ],
+    "updated_at": "2018-10-18 01:02:09",
+    "url": "https://github.com/fall2018-wallace/hw_7"
+}
