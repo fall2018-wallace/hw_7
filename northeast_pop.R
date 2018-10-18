@@ -2,6 +2,8 @@
 #Importing the required libraries
 library(ggplot2)
 library(ggmap)
+
+#Generating the map with US states map_data
 US=map_data("state")
 options(scipen=999)
 northeast_pop=ggplot(merged, aes(map_id=stateName)) + geom_map(map=US, aes(fill=Murder),color="black")
